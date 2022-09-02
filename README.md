@@ -24,11 +24,9 @@
 * it created eslintrc.js ... but the example project had cjs
 * `npx install-peerdeps --dev eslint-config-airbnb`
 * `npm i -D eslint-config-airbnb-typescript`
-* (?) create .eslintrc.cjs - copied this from Coding Garden and removed eslintrc.js
+* create .eslintrc.cjs - copied this from Coding Garden and removed eslintrc.js
 * `npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
-* (?) create .prettierrc.cjs
-* set up the airbnb
-* `npx eslint .`
+* create .prettierrc.cjs
 
 
 
