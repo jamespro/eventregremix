@@ -4,6 +4,8 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    '@remix-run/eslint-config',
+    '@remix-run/eslint-config/node',
     'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
