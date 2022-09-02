@@ -102,4 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Remix
+/build
+/public/build
+
 .vscode/settings.json
