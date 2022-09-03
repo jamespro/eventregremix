@@ -127,19 +127,20 @@
     * attendee/confirm.tsx
   * root.tsx
   * src/
-    * components/
+    * Components/
       * index.tsx <- import other components
-      * theme.tsx
-      * elements/
+      * theme.ts
+      * Elements/
         * index.tsx <- import other components
         * SelectInput.component.tsx
-      * forms/
+      * Forms/
         * index.tsx <- import other components
         * ReginfoForm.component.tsx
         * DemoForm.component.tsx
         * ItemsForm.component.tsx
-      * layout/
+      * Layout/
         * index.tsx <- import other components
+        * Layout.component.tsx
         * (?) Do we put the CSS for the component in a file next to it?
         * EventHeader.component.tsx
         * EventFooter.component.tsx
@@ -199,7 +200,17 @@
 * `npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
 * create .prettierrc.cjs
 * `npm install tiny-invariant` - This was useful for TypeScript compliance.
-
+* Add Material UI - https://mui.com/  `npm install @mui/material @emotion/react @emotion/styled`
+- emotion: "Material UI is using emotion as a styling engine by default." https://emotion.sh/docs/introduction
+- font: "Roboto font is not automatically installed. You are responsible for loading any fonts used in your application." `npm install @fontsource/roboto`  https://mui.com/material-ui/react-typography/#general
+- "Then, you can import it in your entry-point."
+`import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';`
+- Example with Remix and TypeScript: https://github.com/mui/material-ui/tree/master/examples/remix-with-typescript
+- `npm i -S @emotion/cache`
+- 
 
 
 
