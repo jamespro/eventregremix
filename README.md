@@ -20,70 +20,70 @@
 
 ## Todo
 
-[ ] Add Material UI
+- [ ] Add Material UI
 
-[ ] Global Landing page / header, footer, link to Event Landing page(s)
-[ ] Event Landing page / header, footer
-[ ] Event info in context
-[ ] Event info: display on page
-[ ] Event info: put into JSON and load from that
-[ ] Event info: mock? (Optional)
-[ ] Event info: MongoDB
-[ ] Event info: load from MongoDB, into context
-[ ] Event Landing page: button to attendee reg
-[ ] Event Landing page: (optional) Make fancy... image / video / layout
-[ ] Stepper: Show steps at top of attendee pages
-[ ] Reginfo: simple form in Remix
-[ ] Reginfo: save data to MongoDB
-[ ] Reginfo: validation: zod
-[ ] Reginfo: generate a uuid for the user, for the order?
-[ ] Items: set up form (simple) checkboxes, price
-[ ] Items: save data to MongoDB
-[ ] Review: Display reginfo, demos, items (simple)
-[ ] Confirm: update all data, change user/order status to "active", timestamp of order completed
-[ ] Confirm: save "amount paid" or do in future step?
-[ ] Confirm: Display receipt: reginfo, items, ordernumber, date/time
-[ ] Confirm: send confirmation email (simple)
+- [ ] Global Landing page / header, footer, link to Event Landing page(s)
+- [ ] Event Landing page / header, footer
+- [ ] Event info in context
+- [ ] Event info: display on page
+- [ ] Event info: put into JSON and load from that
+- [ ] Event info: mock? (Optional)
+- [ ] Event info: MongoDB
+- [ ] Event info: load from MongoDB, into context
+- [ ] Event Landing page: button to attendee reg
+- [ ] Event Landing page: (optional) Make fancy... image / video / layout
+- [ ] Stepper: Show steps at top of attendee pages
+- [ ] Reginfo: simple form in Remix
+- [ ] Reginfo: save data to MongoDB
+- [ ] Reginfo: validation: zod
+- [ ] Reginfo: generate a uuid for the user, for the order?
+- [ ] Items: set up form (simple) checkboxes, price
+- [ ] Items: save data to MongoDB
+- [ ] Review: Display reginfo, demos, items (simple)
+- [ ] Confirm: update all data, change user/order status to "active", timestamp of order completed
+- [ ] Confirm: save "amount paid" or do in future step?
+- [ ] Confirm: Display receipt: reginfo, items, ordernumber, date/time
+- [ ] Confirm: send confirmation email (simple)
 
 ### Phase 2
 * Add demos?
 * Add payment step or do enhancements first?
-[ ] Data improvements? Not sure what this would be.
-[ ] Landing page: (optional) Make fancy... image / video / layout
-[ ] Stepper: Design: add icons to steps
-[ ] Reginfo: add fields, enhance validation
-[ ] Reginfo: Country - Select: show list of countries
-[ ] Reginfo: State - Select: show U.S. states
-[ ] Demo: recall user data
-[ ] Demo: set up form in Remix
-[ ] Demo: validation
-[ ] Demo: save data to MongoDB
-[ ] Demo: add fields, enhance validation
-[ ] Items: improve form: radio, quantity
-[ ] Review: Improve design
-[ ] Confirm: Improve design
-[ ] Confirmation Email: Improve design
+- [ ] Data improvements? Not sure what this would be.
+- [ ] Landing page: (optional) Make fancy... image / video / layout
+- [ ] Stepper: Design: add icons to steps
+- [ ] Reginfo: add fields, enhance validation
+- [ ] Reginfo: Country - Select: show list of countries
+- [ ] Reginfo: State - Select: show U.S. states
+- [ ] Demo: recall user data
+- [ ] Demo: set up form in Remix
+- [ ] Demo: validation
+- [ ] Demo: save data to MongoDB
+- [ ] Demo: add fields, enhance validation
+- [ ] Items: improve form: radio, quantity
+- [ ] Review: Improve design
+- [ ] Confirm: Improve design
+- [ ] Confirmation Email: Improve design
 
 ### Phase 3
-[ ] Reginfo: Update
-[ ] Demo: Update
-[ ] Items: Update
-[ ] Reginfo: State - provinces, states for Canada, Mexico
-[ ] Demo: conditional demos
-[ ] Items: deselect conflicting items
+- [ ] Reginfo: Update
+- [ ] Demo: Update
+- [ ] Items: Update
+- [ ] Reginfo: State - provinces, states for Canada, Mexico
+- [ ] Demo: conditional demos
+- [ ] Items: deselect conflicting items
 
 ### Future
-[ ] Abandonment: if uuid in URL, and doesn't match local, retrieve new data and restart session
-[ ] Auth / Login with other services, and pre-fill reginfo
-[ ] Payment (fake): Add payment step but items are free or have discount to $0
-[ ] Payment (fake): Add payment step but don't save data
-[ ] Payment: Payment integration
-[ ] Reginfo: prevent dupe emails
-[ ] Item: recordstatus
-[ ] Items: multiple prices per item, depend on dates
-[ ] Items: Promo code determine different pricing
-[ ] Items: group discount
-[ ] Item: quota
+- [ ] Abandonment: if uuid in URL, and doesn't match local, retrieve new data and restart session
+- [ ] Auth / Login with other services, and pre-fill reginfo
+- [ ] Payment (fake): Add payment step but items are free or have discount to $0
+- [ ] Payment (fake): Add payment step but don't save data
+- [ ] Payment: Payment integration
+- [ ] Reginfo: prevent dupe emails
+- [ ] Item: recordstatus
+- [ ] Items: multiple prices per item, depend on dates
+- [ ] Items: Promo code determine different pricing
+- [ ] Items: group discount
+- [ ] Item: quota
 
 
 ### Files
