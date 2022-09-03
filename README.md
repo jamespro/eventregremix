@@ -21,7 +21,6 @@
 ## Todo
 
 - [ ] Add Material UI
-
 - [ ] Global Landing page / header, footer, link to Event Landing page(s)
 - [ ] Event Landing page / header, footer
 - [ ] Event info in context
@@ -44,6 +43,10 @@
 - [ ] Confirm: save "amount paid" or do in future step?
 - [ ] Confirm: Display receipt: reginfo, items, ordernumber, date/time
 - [ ] Confirm: send confirmation email (simple)
+
+### Phase 1.1
+* [ ] Admin: Show user's info from userid in URL parameter
+* [ ] Admin: Page with form to enter a userid, and display user info
 
 ### Phase 2
 * Add demos?
@@ -71,8 +74,18 @@
 - [ ] Reginfo: State - provinces, states for Canada, Mexico
 - [ ] Demo: conditional demos
 - [ ] Items: deselect conflicting items
+- [ ] Items: conditional items
 
 ### Future
+* Retrieve in-progress session (abandonment)
+* Authentication / Login / Account
+* Payment
+* Item / pricing / order features
+* Visa
+* Referral
+* Sessions
+* Update profile / info
+* Upgrade / Add to order
 - [ ] Abandonment: if uuid in URL, and doesn't match local, retrieve new data and restart session
 - [ ] Auth / Login with other services, and pre-fill reginfo
 - [ ] Payment (fake): Add payment step but items are free or have discount to $0
@@ -84,6 +97,7 @@
 - [ ] Items: Promo code determine different pricing
 - [ ] Items: group discount
 - [ ] Item: quota
+- [ ] Item: require additional info
 
 
 ### Files
