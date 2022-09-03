@@ -7,6 +7,11 @@
     "start": "remix-serve build"
   },
   "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/material": "^5.10.3",
     "@remix-run/node": "^1.7.0",
     "@remix-run/react": "^1.7.0",
     "@remix-run/serve": "^1.7.0",
