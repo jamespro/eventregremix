@@ -14,6 +14,15 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  typography: {
+    fontFamily: 'Roboto',
+    h1: {
+      fontFamily: 'Droid Serif',
+    },
+    h2: {
+      fontFamily: 'Open Sans',
+    },
+  },
 })
 
 export default theme

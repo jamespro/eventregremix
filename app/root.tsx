@@ -23,7 +23,7 @@ import { Layout } from './src/Components/Layout'
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'New Remix App',
+  title: 'Event Registration',
   viewport: 'width=device-width,initial-scale=1',
 })
 

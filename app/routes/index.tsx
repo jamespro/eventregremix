@@ -1,32 +1,20 @@
+import { Link } from '@remix-run/react'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.4' }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+    <main>
+      <Box sx={{ mt: 2, mb: 2 }}>
+        <Typography variant="h2" component="h1" gutterBottom textAlign="center">
+          Upcoming Events
+        </Typography>
+        <Box sx={{ ml: 2, mb: 8, pb: 8 }}>
+          <Typography variant="h4">
+            <Link to="myst1223">Mystery Convention 2023</Link>
+          </Typography>
+        </Box>
+      </Box>
+    </main>
   )
 }
