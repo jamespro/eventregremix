@@ -1,3 +1,5 @@
 import Layout from './Layout.component'
+import GlobalHeader from './GlobalHeader.component'
+import GlobalFooter from './GlobalFooter.component'
 
-export { Layout }
+export { Layout, GlobalHeader, GlobalFooter }
