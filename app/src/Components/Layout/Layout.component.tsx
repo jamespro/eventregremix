@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <CssBaseline />
       <GlobalHeader />
       <Container>
-        <Paper>{children}</Paper>
+        <Paper sx={{ mb: 2, mt: 2 }}>{children}</Paper>
       </Container>
       <GlobalFooter />
     </>
