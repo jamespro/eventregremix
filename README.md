@@ -20,8 +20,8 @@
 
 ## Todo
 
-- [ ] Add Material UI
-- [ ] Global Landing page / header, footer, link to Event Landing page(s)
+- [x] Add Material UI
+- [x] Global Landing page / header, footer, link to Event Landing page(s)
 - [ ] Event Landing page / header, footer
 - [ ] Event info in context
 - [ ] Event info: display on page
@@ -106,6 +106,8 @@
 * 
 
 * app/
+  * entry.client.tsx <- KEEP: Remix relies on these to hydrate
+  * entry.server.tsx <- KEEP: Remix relies on these to hydrate
   * models/
     * event.server.tsx
     * person.server.tsx
@@ -114,17 +116,18 @@
     * order.server.tsx (?)
     * email.server.tsx (?) would this send an email or put that somewhere else? Would it retrieve email content from the server? Would it build the email?
     * session.server.tsx <- I think we will use this to manage the session, cookies, etc and do we need it to know if they are logged in? Like it will be getting the event info and user info from the other models? See the indie-stack repo.
-    * entry.client.tsx <- these must only be for example code?
-    * entry.server.tsx <- these must only be for example code?
   * routes/
     * index.tsx
-    * attendee.tsx
-    * attendee/index.tsx <- I think we don't need index?
-    * attendee/reginfo.tsx
-    * attendee/items.tsx
-    * attendee/review.tsx
-    * in what file do we send the email?
-    * attendee/confirm.tsx
+    * $eventCode.tsx - MAYBE THIS IS WHERE WE SET EVENT DATA FOR ALL SUB-PAGES
+    * $eventCode/
+      * index.tsx - landing page for specific event - could make this look different from all sub-pages
+      * attendee.tsx
+      * attendee/index.tsx <- I think we don't need index?
+      * attendee/reginfo.tsx
+      * attendee/items.tsx
+      * attendee/review.tsx
+      * in what file do we send the email?
+      * attendee/confirm.tsx
   * root.tsx
   * src/
     * Components/
@@ -142,8 +145,8 @@
         * index.tsx <- import other components
         * Layout.component.tsx
         * (?) Do we put the CSS for the component in a file next to it?
-        * EventHeader.component.tsx
-        * EventFooter.component.tsx
+        * > No, using $eventCode.tsx: EventHeader.component.tsx
+        * > Not using $eventCode.tsx: EventFooter.component.tsx
         * AttendeeHeader.component.tsx
         * AttendeeFooter.component.tsx
         * GlobalHeader.component.tsx
@@ -170,6 +173,10 @@
 
 ## Optimizations and Enhancements
 
+
+## Reference
+
+* !! Loading data: Video: Remix Single: [Loading data into components](https://www.youtube.com/watch?v=NXqEP_PsPNc&list=PLXoynULbYuEDG2wBFSZ66b85EIspy3fy6)
 
 ## Setup
 

@@ -14,11 +14,11 @@ let theme = createTheme({
   },
   typography: {
     fontFamily: 'Roboto',
-    h1: {
+    h2: {
       fontFamily: 'Droid Serif',
     },
-    h2: {
-      fontFamily: 'Open Sans',
+    h3: {
+      fontFamily: 'Droid Serif',
     },
   },
 })

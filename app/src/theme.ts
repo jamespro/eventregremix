@@ -16,12 +16,6 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: 'Roboto',
-    h1: {
-      fontFamily: 'Droid Serif',
-    },
-    h2: {
-      fontFamily: 'Open Sans',
-    },
   },
 })
 
