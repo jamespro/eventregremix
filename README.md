@@ -22,7 +22,7 @@
 
 - [x] Add Material UI
 - [x] Global Landing page / header, footer, link to Event Landing page(s)
-- [ ] Event Landing page / header, footer
+- [x] Event Landing page / header, footer
 - [ ] Event info in context
 - [ ] Event info: display on page
 - [ ] Event info: put into JSON and load from that
