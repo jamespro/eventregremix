@@ -1,8 +1,10 @@
-# eventregremix
+# EventReg (Remix) - Register for MysteryCon 2022!
+
+![Event Reg](https://raw.githubusercontent.com/jamespro/eventregi/main/public/banner.png)
 
 * Remix
 * TypeScript
-* Vite
+* React
 
 ## Dev Questions
 
