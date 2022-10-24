@@ -40,7 +40,8 @@ MERN stack:
 
 Also: 
 * Material UI - helps with layout and multi-step
-* Formik - easier form management
+* REPLACING FORMIK WITH remix-validated-form
+* REPLACING yup with zod
 
 ## Dev Questions
 
