@@ -1,8 +1,47 @@
-# eventregremix
+# EventReg (Remix) - Register for MysteryCon 2022!
+
+![Event Reg](https://raw.githubusercontent.com/jamespro/eventregi/main/public/banner.png)
 
 * Remix
 * TypeScript
-* Vite
+* React
+
+## About this Project
+
+Initial scope: 
+
+* Register as an attendee for an event--Mystery Convention 2022. 
+
+* Multi-step checkout process using **React**, with **Formik** and **Material UI**, and **MongoDB**.
+
+[*Join us at MysteryCon 2022: For True Fans of Mystery!*](https://eventregi.herokuapp.com/)
+
+| ![Event Reg](https://raw.githubusercontent.com/jamespro/eventregi/main/public/img/welcome-sm.png) | 
+|:--:| 
+| *Landing Page* |
+
+| ![RegInfo](https://raw.githubusercontent.com/jamespro/eventregi/main/public/img/reginfo-sm.png) | 
+|:--:| 
+| *Contact Info* |
+
+| ![Items](https://raw.githubusercontent.com/jamespro/eventregi/main/public/img/items-sm.png) | 
+|:--:| 
+| *Item Selection* |
+
+
+## Tech used
+* JavaScript
+
+MERN stack:
+* MongoDB / Mongoose
+* Express
+* React
+* Node.js
+
+Also: 
+* Material UI - helps with layout and multi-step
+* REPLACING FORMIK WITH remix-validated-form
+* REPLACING yup with zod
 
 ## Dev Questions
 
